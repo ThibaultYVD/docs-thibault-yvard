@@ -136,15 +136,15 @@ Il est aussi possible de faire des listes numérotés : il suffit de mettre un *
 Une liste à cocher peut se faire avec des **crochets** puis **laisser un espace** entre les deux pour avoir une case vide. Pour créer une case déjà cochée, il suffit d'ajouter un **x** entre les crochets :
 
 ```
-[ ] Element 1
-[x] Element 2
-[ ] Element 3
+- [ ] Element 1
+- [x] Element 2
+- [ ] Element 3
 ```
 
 Qui donnera le résultat suivant :
-[ ] Element 1
-[x] Element 2
-[ ] Element 3
+- [ ] Element 1
+- [x] Element 2
+- [ ] Element 3
 
 
 ## Spécificités à WikiJs
