@@ -9,10 +9,10 @@ Pour les besoins de l’entreprise, des données issues de l’ERP sont copiées
 
 J'ai commencé par organiser mon travail en étudiant les attentes du cahier des charges, j'y ai dégagé 4 grandes étapes :
 
-[La création de la **base de données**](/professionals-projects/vtomjob/database)
-[La création du **cœur du programme**](/professionals-projects/vtomjob/core)
-[La création du d'une **bibliothèque de classes** servant à interroger la base de données ](/professionals-projects/vtomjob/core)
-[et la création de **l'IHM** afin de contrôler le programme.](/professionals-projects/vtomjob/ihm)
+- [La création de la **base de données**](/professionals-projects/vtomjob/database)
+- [La création du **cœur du programme**](/professionals-projects/vtomjob/core)
+- [La création du d'une **bibliothèque de classes** servant à interroger la base de données ](/professionals-projects/vtomjob/core)
+- [et la création de **l'IHM** afin de contrôler le programme.](/professionals-projects/vtomjob/ihm)
 {.links-list}
 
 # Organisation
