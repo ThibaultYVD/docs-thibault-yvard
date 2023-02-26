@@ -18,9 +18,8 @@ J'utilise le Markdown au quotidien avec l'utilisation de Discord ou [Notion](../
 
 # La syntaxe Markdown
 
-## Mise en gras, en italique
+## Mettre en gras
 
-### Mettre en gras
 La mise d'un texte en gras se fait avec l'utilisation de **2 astérisques** (ou "étoiles") avant et après le texte :
 ```
     # Ce texte n'est pas en gras mais en gras mais **celui-ci l'est !**
@@ -29,7 +28,7 @@ Ceci donnera donc :
 > Ce texte n'est pas en gras mais en gras mais **celui-ci l'est !**
 
 
-### Mettre en italique
+## Mettre en italique
 L'italique lui se fait simplement avec **1 astérisque** (avant et après le texte bien sûr):
 ```
     # *Un texte en italique !*
@@ -38,7 +37,7 @@ Donnera ...
 > *Un texte en italique !*
 
 
-### Cumuler un texte en gras et en italique
+## Cumuler un texte en gras et en italique
 Et oui, c'est possible avec l'utilisation de **3 astérisques**
 
 ```
