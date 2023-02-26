@@ -14,7 +14,7 @@ Markdown est un langage de balisage léger permettant de simplifier la rédactio
 
 # Mon usage
 
-J'utilise le Markdown au quotidien avec l'utilisation de Discord ou [Notion](/work-environment/notion.md).
+J'utilise le Markdown au quotidien avec l'utilisation de Discord ou [Notion](/fr/work-environment/notion.md).
 
 # La syntaxe Markdown
 
