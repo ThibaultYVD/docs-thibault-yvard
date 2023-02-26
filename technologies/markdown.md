@@ -18,11 +18,9 @@ J'utilise le Markdown au quotidien avec l'utilisation de Discord ou [Notion](../
 
 # La syntaxe Markdown
 
+## Mise en gras, en italique
 
-### Mettre en **gras** et/ou en *italique et/ou barré*
-
-
-##### Mettre en gras
+### Mettre en gras
 La mise d'un texte en gras se fait avec l'utilisation de **2 astérisques** (ou "étoiles") avant et après le texte :
 ```
     # Ce texte n'est pas en gras mais en gras mais **celui-ci l'est !**
@@ -31,7 +29,7 @@ Ceci donnera donc :
 > Ce texte n'est pas en gras mais en gras mais **celui-ci l'est !**
 
 
-##### Mettre en italique
+### Mettre en italique
 L'italique lui se fait simplement avec **1 astérisque** (avant et après le texte bien sûr):
 ```
     # *Un texte en italique !*
@@ -40,7 +38,7 @@ Donnera ...
 > *Un texte en italique !*
 
 
-##### Cumuler un texte en gras et en italique
+### Cumuler un texte en gras et en italique
 Et oui, c'est possible avec l'utilisation de **3 astérisques**
 
 ```
@@ -49,7 +47,7 @@ Et oui, c'est possible avec l'utilisation de **3 astérisques**
 > ***Ce texte est en gras ET en italique***
 
 
-##### Barrer un texte
+## Barrer un texte
 Barrer un texte se fait avec **2 tildes**
 
 ```
@@ -59,7 +57,7 @@ Barrer un texte se fait avec **2 tildes**
 > ~~Voici un texte barré~~
 
 
-###### Cumuler un texte en gras, en italique et barré
+## Cumuler un texte en gras, en italique et barré
 Petit exemple de ce qu'on peut faire en combinant les 3
 
 ```
@@ -70,7 +68,7 @@ Petit exemple de ce qu'on peut faire en combinant les 3
 
 
 
-### Les titres
+## Les titres
 Un titre se signale avec des **dièses** (#)
 Il existe 6 niveau de titre, en fonction du **nombre** de dièse écrit :
 
@@ -83,7 +81,7 @@ Il existe 6 niveau de titre, en fonction du **nombre** de dièse écrit :
 ######      Titre 6
 ```
 
-> #           Titre 1
+#           Titre 1
 ##          Titre 2
 ###         Titre 3
 ####        Titre 4
@@ -91,7 +89,7 @@ Il existe 6 niveau de titre, en fonction du **nombre** de dièse écrit :
 ######      Titre 6
 
 
-### Les citations
+## Les citations
 Une citation peut se faire avec le **signe supérieur à** (>)
 
 ```
@@ -101,7 +99,63 @@ Une citation peut se faire avec le **signe supérieur à** (>)
 Donnera ...
 > HAMLET - Être ou ne pas être : telle est la question.
 
-###### Les plus de Wiki.Js
+
+
+
+
+## Les listes
+
+
+
+### Les listes simples
+
+Pour faire une liste **simple**, il y a 3 choix : utiliser le **signe plus**, le **tiret** ou un **astérique**
+
+Exemple avec le tiret (celui que j'utilise le plus)
+```
+- Element 1
+- Element 2 
+- Element 3
+```
+
+Qui donnera ...
+- Element 1
+- Element 2 
+- Element 3
+
+
+### Les listes numérotées
+
+Il est aussi possible de faire des listes numérotés : il suffit de mettre un **chiffre suivi d'un point**, peu importe l'ordre du chiffre écrit.
+```
+1. Element 1
+2. Element 2
+3. Element 3
+```
+1. Element 1
+2. Element 2
+3. Element 3
+
+
+### Listes à cocher
+
+Une liste à cocher peut se faire avec des **crochets** puis **laisser un espace** entre les deux pour avoir une case vide. Pour créer une case déjà cochée, il suffit d'ajouter un **x** entre les crochets :
+
+```
+[ ] Element 1
+[x] Element 2
+[ ] Element 3
+```
+
+Qui donnera le résultat suivant :
+[ ] Element 1
+[x] Element 2
+[ ] Element 3
+
+
+## Spécificités à WikiJs
+
+### Les variations des citations
 
 Wiki.Js ajoute plusieurs variations de ces citations avec les "avertissements", les "succcès" et les "informations"
 
@@ -132,59 +186,7 @@ Wiki.Js ajoute plusieurs variations de ces citations avec les "avertissements", 
 {is.info}
 
 
-### Les listes
-
-
-
-###### Les listes simples
-
-Pour faire une liste **simple**, il y a 3 choix : utiliser le **signe plus**, le **tiret** ou un **astérique**
-
-Exemple avec le tiret (celui que j'utilise le plus)
-```
-- Element 1
-- Element 2 
-- Element 3
-```
-
-Qui donnera ...
-- Element 1
-- Element 2 
-- Element 3
-
-
-###### Les listes numérotées
-
-Il est aussi possible de faire des listes numérotés : il suffit de mettre un **chiffre suivi d'un point**, peu importe l'ordre du chiffre écrit.
-```
-1. Element 1
-2. Element 2
-3. Element 3
-```
-1. Element 1
-2. Element 2
-3. Element 3
-
-
-###### Listes à cocher
-
-Une liste à cocher peut se faire avec des **crochets** puis **laisser un espace** entre les deux pour avoir une case vide. Pour créer une case déjà cochée, il suffit d'ajouter un **x** entre les crochets :
-
-```
-[ ] Element 1
-[x] Element 2
-[ ] Element 3
-```
-
-Qui donnera le résultat suivant :
-[ ] Element 1
-[x] Element 2
-[ ] Element 3
-
-
-### Autres
-
-###### Liste de liens
+### Liste de liens
 
 La liste de lien premet de structurer des liens, cela peut service pour faire des tables des matières :
 ```
@@ -198,7 +200,7 @@ Le résultat :
 - [Mon site web *C'est un super site !*](https://thibault-yvard.fr)
 {.links-list}
 
-###### Onglets
+### Onglets
 
 ```
 # Tabs {.tabset}
