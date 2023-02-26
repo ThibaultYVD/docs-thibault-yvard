@@ -1,6 +1,9 @@
 # VTOMJOB
 
-# Présentation du projet
+
+# Tabs {.tabset}
+
+## Présentation du projet
 
 # Situation existente
 
@@ -21,9 +24,9 @@ J'ai effectué mon travail en **autonomie**, j'ai fais du versioning de mon prog
 
 # Architecture logiciel
 
-[![architecture vtomjob.png](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/scaled-1680-/huFykeib94v3P52W-architecture-vtomjob.png)](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/huFykeib94v3P52W-architecture-vtomjob.png)
+![architecture vtomjob.png](/img/vtomjob/architecture%20vtomjob.png)
 
-# Base de données
+## Base de données
 
 # Les besoins
 
@@ -33,7 +36,8 @@ La base de données doit pouvoir subvenir a des besoins précis :
 - stocker les paramètres des destinations
 - et stocker l'historique du programme
 
-# Diagramme MCD[![MCD BDD.png](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/scaled-1680-/5LaiqCnPOcEPCPYi-mcd-bdd.png)](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/5LaiqCnPOcEPCPYi-mcd-bdd.png)
+# Diagramme MCD
+![MCD BDD.png](/img/vtomjob/MCD-BDD.png)
 
 # Sauvegardes
 
@@ -45,7 +49,7 @@ J'ai donc fais **plusieurs sauvegardes** des commandes SQL pour la création de 
 
 ##### **[Répos Github](https://github.com/Thibault53/VTOMJOB)**
 
-# Coeur du programme
+## Coeur du programme
 
 # Besoins
 
@@ -105,7 +109,7 @@ Vient l'utilité des **[Tasks](https://learn.microsoft.com/fr-fr/dotnet/api/syst
 
 # Diagramme des classes
 
-[![Diagramme de classe(core).png](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/scaled-1680-/cHEG8TQUSmxeDGa2-diagramme-de-classecore.png)](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/cHEG8TQUSmxeDGa2-diagramme-de-classecore.png)
+![Diagramme de classe(core).png](/img/vtomjob/Diagramme%20de%20classe(core).png)
 
 # Gestion des erreurs
 
@@ -131,7 +135,7 @@ Se retrouve les paramètres pour indiquer :
 
 ##### **[Répos Github](https://github.com/Thibault53/VTOMJOB)**
 
-# Bibliothèque de classe
+## Bibliothèque de classe
 
 # Son utilité
 
@@ -143,13 +147,13 @@ Cette bibliothèque de classes contient donc toute les fonctions pour **insérer
 
 # Diagramme des classes
 
-[![Diagramme de classe (library).png](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/scaled-1680-/cAhp5PpL8zTkAW3l-diagramme-de-classe-library.png)](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/cAhp5PpL8zTkAW3l-diagramme-de-classe-library.png)
+![Diagramme de classe (library).png](/img/vtomjob/Diagramme%20de%20classe%20(library).png)
 
 ---
 
 ##### **[Répos Github](https://github.com/Thibault53/VTOMJOB)**
 
-# IHM
+## IHM
 
 # Besoins
 
@@ -163,21 +167,21 @@ L'IHM sert à :
 
 # Page Liste des Jobs
 
-[![IHM-listejobs.png](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/scaled-1680-/BEyNNSNIXCh05iGi-ihm-listejobs.png)](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/BEyNNSNIXCh05iGi-ihm-listejobs.png)
+![IHM-listejobs.png](/img/vtomjob/IHM-listejobs.png)
 
 # Page Gestion Job
 
-[![IHM-gestionjob.png](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/scaled-1680-/g8Q1Sx6l07Qz1lNM-ihm-gestionjob.png)](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/g8Q1Sx6l07Qz1lNM-ihm-gestionjob.png)
+![IHM-gestionjob.png](/img/vtomjob/IHM-gestionjob.png)
 
 # Page Liste des logs
 
-[![IHM-listelogs.png](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/scaled-1680-/PhITVeO3geYo6Tl6-ihm-listelogs.png)](https://thibault-yvard.fr/docs/uploads/images/gallery/2023-02/PhITVeO3geYo6Tl6-ihm-listelogs.png)
+![IHM-listelogs.png](/img/vtomjob/IHM-listejobs.png)
 
 ---
 
 ##### **[Répos Github](https://github.com/Thibault53/VTOMJOB)**
 
-# Retour d'expérience
+## Retour d'expérience
 
 Ce stage était très instructif, beaucoup de thème a été abordé pour la réalisation de ce projet; notament **l'encodage**, **les tâches** et plus encore.
 
