@@ -1,12 +1,3 @@
-# VTOMJOB
-
-
-
-
-# Accès au VPS
-- [PuTTy, Cmder *Terminal SSH*](/fr/self-hosting/ssh-terminal)
-- [FileZilla ou WinSCP *Accès aux fichiers (Client FTP)*](/fr/self-hosting/ftp-client)
-{.links-list}
 # Présentation du projet
 
 
@@ -19,14 +10,11 @@ Pour les besoins de l’entreprise, des données issues de l’ERP sont copiées
 J'ai commencé par organiser mon travail en étudiant les attentes du cahier des charges, j'y ai dégagé 4 grandes étapes :
 
 [La création de la **base de données**](/professionals-projects/vtomjob/database)
-
 [La création du **cœur du programme**](/professionals-projects/vtomjob/core)
-
 [La création du d'une **bibliothèque de classes** servant à interroger la base de données ](/professionals-projects/vtomjob/core)
-
 [et la création de **l'IHM** afin de contrôler le programme.](/professionals-projects/vtomjob/ihm)
-
 {.links-list}
+
 # Organisation
 
 J'ai effectué mon travail en **autonomie**, j'ai fais du versioning de mon programme en local. L'utilisation d'un système de versioning comme Git était impossible dû à un incident dans l'entreprise qui a engendré la coupure de tout accès à internet pendant une bonne partie du stage. Cependant, j'ai mis le programme final sur **[GitHub](https://github.com/Thibault53/VTOMJOB)**. J'ai fais un **suivi de mes activités** chaque jours afin de faire le point à la fin de la journée sur ce qui a été fait et de décider sur quoi je vais travailler le lendemain.
