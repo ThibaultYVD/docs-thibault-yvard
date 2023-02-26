@@ -1,5 +1,12 @@
-# Présentation du projet
-
+---
+title: VTOMJOB
+description: Projet de 2nd année de BTS
+published: true
+date: 2022-09-27T09:27:25.427Z
+tags: 
+editor: undefined
+dateCreated: 2022-09-26T13:39:34.284Z
+---
 
 # Situation existente
 
@@ -28,7 +35,7 @@ J'ai effectué mon travail en **autonomie**, j'ai fais du versioning de mon prog
 
 
 
-## Retour d'expérience
+# Retour d'expérience
 
 Ce stage était très instructif, beaucoup de thème a été abordé pour la réalisation de ce projet; notament **l'encodage**, **les tâches** et plus encore.
 

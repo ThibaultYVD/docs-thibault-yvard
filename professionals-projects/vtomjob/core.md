@@ -1,4 +1,13 @@
-# Coeur du programme
+---
+title: Coeur du programme
+description: 
+published: true
+date: 
+tags: 
+editor: undefined
+dateCreated:
+---
+
 
 ## Besoins
 
@@ -83,4 +92,4 @@ Se retrouve les paramètres pour indiquer :
 
 ---
 
-### **[Répos Github](https://github.com/Thibault53/VTOMJOB)**
+## **[Répos Github](https://github.com/Thibault53/VTOMJOB)**

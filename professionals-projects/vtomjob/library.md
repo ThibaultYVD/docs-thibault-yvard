@@ -1,4 +1,14 @@
-# Bibliothèque de classe
+---
+title: Bibliothèque de classe
+description: 
+published: true
+date: 
+tags: 
+editor: undefined
+dateCreated:
+---
+
+
 
 ## Son utilité
 
@@ -14,4 +24,4 @@ Cette bibliothèque de classes contient donc toute les fonctions pour **insérer
 
 ---
 
-### **[Répos Github](https://github.com/Thibault53/VTOMJOB)**
+## **[Répos Github](https://github.com/Thibault53/VTOMJOB)**

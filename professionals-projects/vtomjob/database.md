@@ -1,4 +1,13 @@
-# Base de données
+---
+title: Base de données
+description: 
+published: true
+date: 
+tags: 
+editor: undefined
+dateCreated:
+---
+
 
 ## Les besoins
 
@@ -19,4 +28,4 @@ J'ai donc fais **plusieurs sauvegardes** des commandes SQL pour la création de 
 
 ---
 
-### **[Répos Github](https://github.com/Thibault53/VTOMJOB)**
+## **[Répos Github](https://github.com/Thibault53/VTOMJOB)**

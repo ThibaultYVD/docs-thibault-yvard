@@ -1,4 +1,13 @@
-# IHM
+---
+title: IHM
+description: 
+published: true
+date: 
+tags: 
+editor: undefined
+dateCreated:
+---
+
 
 ## Besoins
 
@@ -24,4 +33,4 @@ L'IHM sert à :
 
 ---
 
-### **[Répos Github](https://github.com/Thibault53/VTOMJOB)**
+## **[Répos Github](https://github.com/Thibault53/VTOMJOB)**
