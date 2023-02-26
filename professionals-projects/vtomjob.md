@@ -1,6 +1,6 @@
 ---
 title: VTOMJOB
-description: Projet de 2nd année de BTS
+description: Projet de de 2nd année de BTS
 published: true
 date: 2022-09-27T09:27:25.427Z
 tags: 
