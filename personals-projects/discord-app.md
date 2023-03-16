@@ -31,3 +31,4 @@ C'est donc pour cela que j'ai décidé de créer le mien, afin d'avoir la struct
 - [La **base de données**](/personals-projects/discord-app/database)
 - [Le **programme**](/personals-projects/discord-app/backend)
 - [**L'utilisation**](/personals-projects/discord-app/core)
+{.links-list}
