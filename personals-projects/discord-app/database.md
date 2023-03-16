@@ -44,7 +44,7 @@ Elle stocke le choix des utilisateurs à l'inscription d'un événement. Il y a 
 ![Event archive table](../../img/discord-app/event_archive-table.png)
 Elle sert uniquement pour des statistiques personnel. Un événement terminé sera stocké dans cette table.
   
----
+#
 
 > La base de données est **entièrement** encodé sous la base __**utf8 mb4**__. Pourquoi ? Car cette base permet de stocker les caractères à **4 octets**. Les émoji font 4 octets et les polices personnalisé aussi, ce qui est indispensable pour le bon fonctionnement de l'application.
 {.is-info}
