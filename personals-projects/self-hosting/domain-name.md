@@ -18,7 +18,7 @@ Le nom de domaine permet de donner une **meilleure visibilité** au site Interne
 ## Comment en obtenir un ?
 Pour obtenir un nom de domaine, vous devez **l'enregistrer chez un bureau d'enregistrement**. Cela ce fait très facilement : **beaucoup d'hébergeur** vous permette d'enregistrer votre nom de domaine Dans mon cas, j'ai enregistré mon nom de domaine chez OVH.
 
-> La structure d'une adresse Internet![adresse_internet.jpg](/img/adresse_internet.jpg)
+> La structure d'une adresse Internet ![adresse_internet.jpg](/img/adresse_internet.png)
 {.is-info}
 
 > Pour créer un nom de domaine, il vous faut choisir le **nom** de votre site, mais aussi son **extension** (.fr, .com, .net, ...).

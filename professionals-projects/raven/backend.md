@@ -8,4 +8,4 @@ editor: undefined
 dateCreated:
 ---
 
-[Diagramme des classes](../../img/raven/diagramme_classe.png)
+![Diagramme des classes](../../img/raven/diagramme_classe.png)

@@ -9,7 +9,7 @@ dateCreated:
 ---
 
 
-La base de données a été au dapart réalisé en SQL sur PhpMyAdmin mais un portage de la base de données sur MongoDB est en cours de réflection car une base de données en NoSql est plus facilement gérable en Node;js qu'en utilisant du SQL.
+La base de données a été au dapart réalisé en SQL sur PhpMyAdmin mais un portage de la base de données sur MongoDB est en cours de réflection car une base de données en NoSql est plus facilement gérable en Node.js qu'en utilisant du SQL.
 
 ![MCD](../../img/discord-app/mcd.png)
 

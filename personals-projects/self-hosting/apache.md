@@ -154,6 +154,6 @@ Il suffit maintenant de **recharger la configuration d’Apache** pour prendre e
 systemctl reload apache2
 ```
 
-> Et voilà ! Votre serveur est prêt, il ne reste plus qu'à visiter votre site web pour voir la page d'accueil d'Apache.![apache-default-page.jpg](/img/apache-default-page.jpg)
+> Et voilà ! Votre serveur est prêt, il ne reste plus qu'à visiter votre site web pour voir la page d'accueil d'Apache.![apache-default-page](/img/apache-default-page.png)
 {.is-success}
 

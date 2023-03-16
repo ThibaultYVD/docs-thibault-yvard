@@ -22,7 +22,7 @@ Il est souvent difficile de rassembler un groupe pour une activité, j'ai donc d
 
 # L'existant
 
-Ces applications sont légions sur Discord; Je peux citer par exemple "Carl-bot", "YAGPDB.xyz" ou encore "Raid-Helper". Cependant, leurs fonctionnements ne me convient pas. Certains sont des applications Freemium (Fonctionnalités de base gratuite mais payant pour en tirer le plein potentiel) alors que d'autre manque de fonctionnalités.
+Ces applications sont légions sur Discord. Je peux citer par exemple "YAGPDB.xyz" ou encore "Raid-Helper". Cependant, leurs fonctionnements ne me convient pas. Certains sont des applications Freemium (Fonctionnalités de base gratuite mais payant pour en tirer le plein potentiel) alors que d'autre manque de fonctionnalités.
 C'est donc pour cela que j'ai décidé de créer le mien, afin d'avoir la structure et les fonctionnalités que je souhaite.
 
 

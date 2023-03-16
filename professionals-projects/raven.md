@@ -20,7 +20,7 @@ Le projet a été de réaliser un site web d'e-commerce en utilisant le framewor
 - Valider et acheter le panier afin de générer une commande
 
 Ces objectifs ont été représenté dans ce diagramme des cas d'utilisations :
-[Cas utilisation](../img/raven/cas_utilisation.png)
+![Cas utilisation](../img/raven/cas_utilisation.png)
 
 
 - [**Base de données**](/professionals-projects/raven/database)
