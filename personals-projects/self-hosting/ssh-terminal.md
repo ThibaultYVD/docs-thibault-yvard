@@ -17,7 +17,7 @@ Le terminal SSH est une application utilisée pour se connecter à un ordinateur
 
 # {.tabset}
 ## Console Windows/Powershell
-Et oui, il est possible de se connecter en SSH directement via la **console** déjà installé sur votre Windows avec la commande
+Et oui, il est possible de se connecter en SSH directement via la **console** déjà installée sur Windows avec la commande
 ```
 ssh <username>@<ip-address>
 ```
@@ -25,7 +25,7 @@ Exemple :
 ```
 ssh root@41.243.38.203
 ```
-Il suffira juste de remplir le **mot de passe de l'utilsateur** que vous aurez indiqué.
+Il suffira juste de remplir le **mot de passe de l'utilisateur** que vous aurez indiqué.
 ## PuTTy
 [PuTTy](https://www.putty.org/) est sans doute le **terminal SSH** le plus connu, son utilisation est simple :
 
@@ -42,8 +42,8 @@ Et enfin, entrer **login/mot de passe** d'un utilisateur de votre serveur et on 
 [Télécharger PuTTy](https://www.putty.org/)
 
 ## Cmder
-[Cmder](https://cmder.app/) est une **console** personnalisé, **open-source**, **permettant plus d'action** dans la console que celle de Windows ou même le terminal PuTTy. Je m'en sers pour accéder à mon VPS en SSH.
+[Cmder](https://cmder.app/) est une **console** personnalisée, **open-source**, **permettant plus d'action** dans la console que celle de Windows ou même le terminal PuTTy. Je m'en sers pour accéder à mon VPS en SSH.
 
-Cmder permet une **bonne personalisation de l'interface** de la console et permet des actions supplémentaire comme **ouvrir plusieurs console en même temps** ou **copier/coller à l'intérieur du terminal**, ce qui est pratique lorsque il faut insérer une longue ligne.
+Cmder permet une **bonne personnalisation de l'interface** de la console et permet des actions supplémentaires comme **ouvrir plusieurs consoles en même temps** ou **copier/coller à l'intérieur du terminal**, ce qui est pratique lorsqu'il faut insérer une longue ligne.
 
 [Télécharger Cmder](https://cmder.app/)

@@ -22,7 +22,7 @@ La base de données doit pouvoir subvenir a des besoins précis :
 
 ## Sauvegardes
 
-La base de données a subit plusieurs modifications suivant les **nouveaux besoins**.
+La base de données a subi plusieurs modifications suivant les **nouveaux besoins**.
 
 J'ai donc fais **plusieurs sauvegardes** des commandes SQL pour la création de la base de données en suivant les modifications.
 

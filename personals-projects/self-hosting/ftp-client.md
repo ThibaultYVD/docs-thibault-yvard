@@ -10,7 +10,7 @@ dateCreated: 2022-09-27T19:42:12.557Z
 
 # Les protocole FTP et SFTP
 
-Le **File Transfert Protocole** (FTP) est un protocole servant, comme son nom l'indique, au **transfert de fichier**. Le protocole fonctionne avec le modèle **client-serveur**. Pour pouvoir faire ces transferts nous pouvons utiliser des clients prévus à cette effet.
+Le **File Transfert Protocole** (FTP) est un protocole servant, comme son nom l'indique, au **transfert de fichier**. Le protocole fonctionne avec le modèle **client-serveur**. Pour pouvoir faire ces transferts nous pouvons utiliser des clients prévus à cet effet.
 
 Le protocole **SFTP** fonctionne de la même manière, à la seule différence où **le SFTP effectue les transferts par SSH**.
 

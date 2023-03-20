@@ -9,13 +9,13 @@ dateCreated: 2022-09-27T12:03:42.988Z
 ---
 
 # Introduction
-Depuis longtemps je souhaitais de mettre en ligne un site personel. Au début cela partait simplement d'un hébergement mutualisé de mon portfolio, puis, lors de mon cursus de BTS, mes camarades en système et réseau m'ont présentés leurs projets : j'ai eu l'envie de faire la même chose. 
+Depuis longtemps je souhaitais de mettre en ligne un site personnel. Au début cela partait simplement d'un hébergement mutualisé de mon portfolio, puis, lors de mon cursus de BTS, mes camarades en système et réseau m'ont présenté leurs projets : j'ai eu envie de faire la même chose. 
 
-Je me suis donc lancé dans cette objectif : celui d'apprendre à gérer moi même, en partant avec peu de connaissances, un serveur privé virtuel, non pas pour simplement héberger un portfolio, mais d'héberger tout ce que je souhaite.
+Je me suis donc lancé dans cet objectif : celui d'apprendre à gérer moi-même, en partant avec peu de connaissances, un serveur privé virtuel, non pas pour simplement héberger un portfolio, mais d'héberger tout ce que je souhaite.
 
 # Nom de domaine et hébergement
 - [Nom de domaine et zone DNS *Leurs fonctionnements et leurs prix*](/fr/self-hosting/domain-name)
-- [Comparatif des offres VPS *Pourquoi j'ai choisis Contabo*](/fr/self-hosting/offers)
+- [Comparatif des offres VPS *Pourquoi j'ai choisi Contabo*](/fr/self-hosting/offers)
 {.links-list}
 
 # Accès au VPS
@@ -32,7 +32,7 @@ Je me suis donc lancé dans cette objectif : celui d'apprendre à gérer moi mê
 - [Docker (WIP)](/fr/self-hosting/docker)
 {.links-list}
 ---
-- [Sécuriser le VPS *On est jamais trop prudent*](/fr/self-hosting/docker)
+- [Sécuriser le VPS *On n'est jamais trop prudent*](/fr/self-hosting/docker)
 {.links-list}
 
 

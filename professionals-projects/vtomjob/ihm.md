@@ -15,7 +15,7 @@ Pour les besoins de l'entreprise, l'IHM est réalisé sur **WINDEV 24.**
 
 L'IHM sert à :
 
-- **Lister** tout les Jobs
+- **Lister** tous les Jobs
 - **Supprimer**, **modifier** ou **ajouter** un Job
 - **Lister** l'historique
 

@@ -15,11 +15,11 @@ Le projet a été de réaliser un site web d'e-commerce en utilisant le framewor
 
 - Naviguer sur le site
 - Créer un compte et se connecter 
-- Voir les informations du compte sur une page dédié
+- Voir les informations du compte sur une page dédiée
 - Pouvoir ajouter un produit au panier
 - Valider et acheter le panier afin de générer une commande
 
-Ces objectifs ont été représenté dans ce diagramme des cas d'utilisations :
+Ces objectifs ont été représenté dans ce diagramme des cas d'utilisation :
 ![Cas utilisation](../img/raven/cas_utilisation.png)
 
 

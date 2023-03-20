@@ -9,9 +9,9 @@ dateCreated: 2022-09-27T14:41:54.759Z
 ---
 
 # Mes besoins
-Je me suis limité un budget d'environ **5 euros par mois** pour mon VPS. Dans ces prix là on trouve des petits VPS livrant de "faible" performances. Mais cela tombe bien : ce VPS **n'aura pas** à gérer **des milliers de connexions simultanés ni besoins de beaucoup de puissance** pour faire tourner des services énergivore. 
+Je me suis limité un budget d'environ **5 euros par mois** pour mon VPS. Dans ces prix-là on trouve des petits VPS livrant de "faible" performances. Mais cela tombe bien : ce VPS **n'aura pas** à gérer **des milliers de connexions simultanées ni besoins de beaucoup de puissance** pour faire tourner des services énergivores. 
 
-Ce tarif est donc parfait pour moi : **reliant un faible prix à des spécificitées proportionnées à mes besoins**. Dans ces prix, on peut trouver certains acteurs :
+Ce tarif est donc parfait pour moi : **reliant un faible prix à des spécificités proportionnées à mes besoins**. Dans ces prix, on peut trouver certains acteurs :
 
 
 - [Hostinger](https://www.hostinger.fr)
@@ -22,7 +22,7 @@ Ce tarif est donc parfait pour moi : **reliant un faible prix à des spécificit
 # Tabs {.tabset}
 ## Hostinger
 
-[**Hostinger**](https://www.hostinger.fr) s'est fait un nom assez rapidement grâce à ses prix **attractifs**. Il permet toute sorte d'hébergement web. Dans ses offres VPS ont peut retrouver l'offre le plus apprécié :
+[**Hostinger**](https://www.hostinger.fr) s'est fait un nom assez rapidement grâce à ses prix **attractifs**. Il permet toute sorte d'hébergement web. Dans ses offres VPS ont peut retrouver l'offre la plus appréciée :
 
 Pour **4,99€** par mois :
 vCPU : 2 coeurs
@@ -36,7 +36,7 @@ Bande passante : 2 To
 
 ## OVH
 
-[**OVH**](https://www.ovhcloud.com), un acteur français très connu en Europe, c'est une valeur sûr en terme d'hébergeur, mais ses prix sont assez élévés par rapport à la concurrence :
+[**OVH**](https://www.ovhcloud.com), un acteur français très connu en Europe, c'est une valeur sûre en termes d'hébergeur, mais ses prix sont assez élevés par rapport à la concurrence :
 
 Pour **5,52€** par mois :
 vCPU : 1 coeur
@@ -62,8 +62,8 @@ Bande passante : 32 To
 
 # Mon choix
 
-Contabo a, sans conteste, l'offre la plus alléchante du marché. Pour le même prix que ses concurrents, l'acteur allemand se démarque par les ressources livrées bien plus élevées que ses concurents. Mon choix s'est donc naturellement porté sur eux.
+Contabo a, sans conteste, l'offre la plus alléchante du marché. Pour le même prix que ses concurrents, l'acteur allemand se démarque par les ressources livrées bien plus élevées que ses concurrents. Mon choix s'est donc naturellement porté sur eux.
 
 ## Retour d'expérience
 
-Cela fait maintenant plus d'un mois où j'écris ces lignes (27/09/2022) et je n'ai eu aucun soucis côté hébergeur.
+Cela fait maintenant plus d'un mois où j'écris ces lignes (27/09/2022) et je n'ai eu aucun souci côté hébergeur.

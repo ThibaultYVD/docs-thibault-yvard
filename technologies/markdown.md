@@ -10,7 +10,7 @@ dateCreated: 2022-09-27T21:58:39.220Z
 
 # Présentation
 
-Markdown est un langage de balisage léger permettant de simplifier la rédaction d'un texte avec des balises simple à comprendre.
+Markdown est un langage de balisage léger permettant de simplifier la rédaction d'un texte avec des balises simples à comprendre.
 
 # Mon usage
 
@@ -22,10 +22,10 @@ J'utilise le Markdown au quotidien avec l'utilisation de Discord ou [Notion](/fr
 
 La mise d'un texte en gras se fait avec l'utilisation de **2 astérisques** (ou "étoiles") avant et après le texte :
 ```
-    # Ce texte n'est pas en gras mais en gras mais **celui-ci l'est !**
+    # Ce texte n'est pas en gras mais **celui-ci l'est !**
 ```
 Ceci donnera donc :
-> Ce texte n'est pas en gras mais en gras mais **celui-ci l'est !**
+> Ce texte n'est pas en gras mais **celui-ci l'est !**
 
 
 ## Mettre en italique
@@ -38,7 +38,7 @@ Donnera ...
 
 
 ## Cumuler un texte en gras et en italique
-Et oui, c'est possible avec l'utilisation de **3 astérisques**
+Eh oui, c'est possible avec l'utilisation de **3 astérisques**
 
 ```
     # ***Ce texte est en gras ET en italique***
@@ -69,7 +69,7 @@ Petit exemple de ce qu'on peut faire en combinant les 3
 
 ## Les titres
 Un titre se signale avec des **dièses** (#)
-Il existe 6 niveau de titre, en fonction du **nombre** de dièse écrit :
+Il existe 6 niveaux de titre, en fonction du **nombre** de dièses écrits :
 
 ```
 #           Titre 1
@@ -103,7 +103,7 @@ Donnera ...
 
 ### Les listes simples
 
-Pour faire une liste **simple**, il y a 3 choix : utiliser le **signe plus**, le **tiret** ou un **astérique**
+Pour faire une liste **simple**, il y a 3 choix : utiliser le **signe plus**, le **tiret** ou un **astérisque**
 
 Exemple avec le tiret (celui que j'utilise le plus)
 ```
@@ -120,7 +120,7 @@ Qui donnera ...
 
 ### Les listes numérotées
 
-Il est aussi possible de faire des listes numérotés : il suffit de mettre un **chiffre suivi d'un point**, peu importe l'ordre du chiffre écrit.
+Il est aussi possible de faire des listes numérotées : il suffit de mettre un **chiffre suivi d'un point**, peu importe l'ordre du chiffre écrit.
 ```
 1. Element 1
 2. Element 2
@@ -153,21 +153,21 @@ Qui donnera le résultat suivant :
 
 Wiki.Js ajoute plusieurs variations de ces citations avec les "avertissements", les "succcès" et les "informations"
 
-- Un **avertissment** se fait en ajoutant **{is.warning}** à la fin de la citation :
+- Un **avertissement** se fait en ajoutant **{is.warning}** à la fin de la citation :
 ```
-> Attention ! Un chat sauvage apparait !
+> Attention ! Un chat sauvage apparaît !
 {is.warning}
 ```
-> Attention ! Un chat sauvage apparait !
+> Attention ! Un chat sauvage apparaît !
 {is.warning}
 
 
 - Un **succès** se fait avec **{is.success}** : 
 ```
-> Félicitation ! Vous avez réussi !
+> Félicitations ! Vous avez réussi !
 {is.success}
 ```
-> Félicitation ! Vous avez réussi !
+> Félicitations ! Vous avez réussi !
 {is.success}
 
 
@@ -198,17 +198,17 @@ Le résultat :
 
 ```
 # Tabs {.tabset}
-## First Tab
+## Premier onglet
 
-Any content here will go into the first tab...
+Bienvenue dans le premier onglet !
 
-## Second Tab
+## Deuxième onglet
 
-Any content here will go into the second tab...
+Bienvenue dans le deuxième onglet !
 
-## Third Tab
+## Troisième onglet
 
-Any content here will go into the third tab...
+Bienvenue dans le troisième onglet !
 ```
 
 # {.tabset}

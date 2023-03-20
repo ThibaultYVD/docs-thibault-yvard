@@ -18,7 +18,7 @@ sudo apt-get install apache2
 ```
 
 # Configuration
-Les fichiers de configuration se trouve dans le répertoire `/etc/apache2/`
+Les fichiers de configuration se trouvent dans le répertoire `/etc/apache2/`
 Si on regarde ce que contient ce répertoire, on trouve des choses très intéressantes :
 ![dirapache.png](/img/dirapache.png)
 
@@ -41,7 +41,7 @@ Comme c'est souvent le cas dans les fichiers de configuration, ce fichier est be
         `-- *.conf
 ```
 ---
-Des paramètres comme **l'utilisateur et le groupe** sous lesquels **tourne Apache** :
+Des paramètres comme **l'utilisateur et le groupe** sous lesquels **fonctionne Apache** :
 
 ```
 # These need to be set in /etc/apache2/envvars
@@ -62,18 +62,18 @@ LogFormat "%{User-agent}i" agent
 ```
 
 ## Fichier ports.conf
-Le fichier contient **les ports** qu'Apache **va écouter** pour tourner, de base, on peut trouver l'instruction qui indique **qu'Apache écoute le port 80**.
+Le fichier contient **les ports** qu'Apache **va écouter** pour fonctionner, de base, on peut trouver l'instruction qui indique **qu'Apache écoute le port 80**.
 ```
 Listen 80
 ```
 Le port **80** est **le port par défaut pour HTTP**.
 
 ## Dossier sites-available
-C'est le dossier où sera stocké la configuration de votre site. Si vous regardez ce que contient ce répertoire, il existe déjà un fichier nommé `000-default.conf`. Ce fichier n'aura pas grand intérêt lorsque qu'on va créer notre propre fichier de configuration.
+C'est le dossier où sera stockée la configuration de votre site. Si vous regardez ce que contient ce répertoire, il existe déjà un fichier nommé `000-default.conf`. Ce fichier n'aura pas grand intérêt lorsque qu'on va créer notre propre fichier de configuration.
 
 ## Dossier sites-enabled
 Ce répertoire va stocker les configurations actives, **ne pas toucher aux fichiers présents ici**. 
-Pour activer une configuration, il faudra créer un **lien symbolique** entre votre fichier de configuration présent dans `/sites-available/` et ce répertoire. Quand vous aller démarrer  le service Apache, cela va **automatiquement générer le fichier de configuration** dans `/sites-enabled/` à partir du fichier dans `/sites-available/`.
+Pour activer une configuration, il faudra créer un **lien symbolique** entre votre fichier de configuration présent dans `/sites-available/` et ce répertoire. Quand vous allez démarrer le service Apache, cela va **automatiquement générer le fichier de configuration** dans `/sites-enabled/` à partir du fichier dans `/sites-available/`.
 
 # Configurer un site web avec Apache
 Cela commence par la création d'un fichier, `exemple.fr.conf` (remplacez le nom du fichier avec le **nom de domaine** de votre site par exemple, en ajoutant bien **l'extension .conf**) dans le répertoire `sites-available/`. Ouvrez le puis ajoutez ceci :
@@ -113,7 +113,7 @@ Indique **la racine** de l’arborescence **de votre site web**, là où vous **
 
 ## La balise Directory
 
-> On pourrait s'arrêter ici pour une **configuration minimal et fonctionnel**, mais nous pouvons ajouter encore quelques directives.
+> On pourrait s'arrêter ici pour une **configuration minimal et fonctionnelle**, mais nous pouvons ajouter encore quelques directives.
 {.is-info}
 
 La balise Directory sert à définir des règles qui s’appliquent uniquement au contenu d’un répertoire, en l'occurrence, le répertoire `/var/www/html/www.exemple.com`.
@@ -123,15 +123,15 @@ La balise Directory sert à définir des règles qui s’appliquent uniquement a
 #### Options All
 ...
 #### AllowOverride None
-Cette directive indique que la configuration contenu dans un **fichier .htaccess n'a pas la priorité** sur celles du **Virtual Host**. 
-A l'inverse, on pourrait utiliser  **All**  pour que le fichier **.htaccess ai la priorité** sur le Virtual Host.
+Cette directive indique que la configuration contenue dans un **fichier .htaccess n'a pas la priorité** sur celles du **Virtual Host**. 
+À l'inverse, on pourrait utiliser  **All**  pour que le fichier **.htaccess ai la priorité** sur le Virtual Host.
 Sinon il est possible de On pourrait préciser **une à une** les options qui peuvent être réécrites.
 
 ## Mettre en ligne le site
 Pour pouvoir tester la configuration, on peut déjà mettre un **premier fichier** .html dans le **répertoire** que nous avons **indiqué**.
 
 
-> Si le répertoire en question n'existe pas, vous devez **le créer avant** :
+> Si le répertoire en question n'existe pas, vous devez **le créer en amont** :
 {.is-info}
 ```
 mkdir /var/www/html/www.exemple.com/
@@ -142,11 +142,11 @@ Placer un fichier .html :
 cp /var/www/html/index.html /var/www/html/www.exemple.com
 ```
 
-Après ça, il faut **activer** la configuration du VirtualHost
+Après cela, il faut **activer** la configuration du VirtualHost
 ```
 a2ensite exemple.fr
 ```
-> Cette commande créé aussi le **lien symbolique** entre le fichier de configuration présent dans `/sites-available/` et le répertoire `/sites-enable/` comme dit plus tôt.
+> Cette commande créée aussi le **lien symbolique** entre le fichier de configuration présent dans `/sites-available/` et le répertoire `/sites-enable/` comme dit plus tôt.
 {.is-info}
 
 Il suffit maintenant de **recharger la configuration d’Apache** pour prendre en compte les modifications.
